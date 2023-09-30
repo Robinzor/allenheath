@@ -14,3 +14,5 @@ java -jar ~/App/DL5000SystemManager.jar
 # Auto start after reboot
 sudo apt-get install gnome-tweaks && sudo apt-get upgrade -y && sudo apt-get update -y
 
+echo "python3 ~/main.py" >> ~/.bashrc
+
